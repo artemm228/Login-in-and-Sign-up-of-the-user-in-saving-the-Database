@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="dgwidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#dgwidget{
+background-color: qlineargradient(spread:pad, x1:0.16, y1:0.125, x2:0.857591, y2:0.909, stop:0 rgba(52, 255, 102, 255), stop:1 rgba(237, 156, 255, 255));}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>50</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Welcome</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>110</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Sign in or create a new account</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_login">
+    <property name="geometry">
+     <rect>
+      <x>185</x>
+      <y>230</y>
+      <width>210</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius:20px;
+background-color: rgb(85, 255, 255);
+color: rgb(61, 61, 61);
+font: 13pt &quot;MS Shell Dlg 2&quot;;
+}
+
+QPushButton:hover {
+	background-color: rgb(170, 255, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Login in</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_create">
+    <property name="geometry">
+     <rect>
+      <x>185</x>
+      <y>290</y>
+      <width>210</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius:20px;
+background-color: rgb(85, 255, 255);
+color: rgb(61, 61, 61);
+font: 13pt &quot;MS Shell Dlg 2&quot;;
+}
+
+QPushButton:hover {
+	background-color: rgb(170, 255, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Create a new account</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
